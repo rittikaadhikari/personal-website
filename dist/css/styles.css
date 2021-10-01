@@ -602,6 +602,10 @@ progress {
   height: auto;
 }
 
+.img-fluid:hover {
+  opacity: 0.3
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -622,6 +626,22 @@ progress {
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .container,
